@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merona.Json.cs", "Merona.Json.cs\Merona.Json.cs.csproj", "{F9B18FC7-64A2-421B-9E43-EC6B5EA38B2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merona.JsonProtocol.cs", "Merona.Json.cs\Merona.JsonProtocol.cs.csproj", "{F9B18FC7-64A2-421B-9E43-EC6B5EA38B2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

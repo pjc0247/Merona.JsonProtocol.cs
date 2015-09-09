@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Merona;
 using Newtonsoft.Json;
 
-namespace Merona.Json.cs
+namespace Merona.JsonProtocol.cs
 {
     public class JsonMarshaler : IMarshalContext
     {
