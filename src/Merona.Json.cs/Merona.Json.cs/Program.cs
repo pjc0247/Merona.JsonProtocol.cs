@@ -90,7 +90,13 @@ namespace Merona.Json.cs
 
                 var slicedJson = json.Substring(0, count);
 
-                return (Packet)JsonConvert.DeserializeObject(slicedJson, Packet.GetTypeById(id));
+                var packet =
+                    (Packet)JsonConvert.DeserializeObject(
+                        slicedJson, Packet.GetTypeById(id));
+
+                packet.packetId = id;
+
+                return packet;
             }
             catch(Exception e)
             {
