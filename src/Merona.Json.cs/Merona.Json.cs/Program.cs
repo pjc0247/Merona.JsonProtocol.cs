@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 
 namespace Merona.Json.cs
 {
-    public class HttpMarshaler : Server.IMarshalContext
+    public class JsonMarshaler : Server.IMarshalContext
     {
         public byte[] Serialize(CircularBuffer<Packet> buffer)
         {
