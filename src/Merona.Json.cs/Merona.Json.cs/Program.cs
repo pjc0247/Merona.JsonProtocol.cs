@@ -60,7 +60,8 @@ namespace Merona.Json.cs
                                 break;
 
                             case JsonToken.PropertyName:
-                                if (depth == 1)
+                                if (depth == 1 &&
+                                    (String)reader.Value == "id")
                                     idField = true;
                                 break;
                             case JsonToken.Integer:
@@ -112,6 +113,8 @@ namespace Merona.Json.cs
         public void OnTestPacket(Session session, TestPacket packet)
         {
             Console.WriteLine("OnTestPacket");
+
+            session.Send(packet);
         }
     }
 
