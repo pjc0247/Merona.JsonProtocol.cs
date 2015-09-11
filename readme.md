@@ -1,9 +1,16 @@
 Merona.JsonProtocol.cs
 ====
 
-Merona¿¡ ¿¬¼ÓµÈ JsonÀ¸·Î ÀÌ·ç¾îÁø ÇÁ·ÎÅäÄÝÀ» Áö¿øÇÕ´Ï´Ù.<br>
-ÀÌ È®ÀåÀ» »ç¿ëÇÏ¿© telnetÀ» ÀÌ¿ëÇÑ ¼­¹ö Å×½ºÆ®¸¦ ¿ëÀÌÇÏ°Ô ÁøÇàÇÒ ¼ö ÀÖ½À´Ï´Ù.
+Meronaì— ì—°ì†ëœ Jsonìœ¼ë¡œ ì´ë£¨ì–´ì§„ í”„ë¡œí† ì½œì„ ì§€ì›í•©ë‹ˆë‹¤.<br>
+ì´ í™•ìž¥ì„ ì‚¬ìš©í•˜ì—¬ telnetì„ ì´ìš©í•œ ì„œë²„ í…ŒìŠ¤íŠ¸ë¥¼ ìš©ì´í•˜ê²Œ ì§„í–‰í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 
+Installation
+----
+* __Nuget__<br>
+  https://www.nuget.org/packages/Merona.JsonProtocol.cs/
+
+Usage
+----
 ```c#
 [PacketId(1)]
 class FooPacket : Packet {
@@ -26,5 +33,5 @@ class BarPacket : Packet {
   "ary" : [1,2,3,4]
 }
 ```
-¿¬¼ÓµÈ µÎ json ÆÐÅ¶ »çÀÌ¿¡´Â ¾Æ¹«·± ±¸ºÐÀÚµµ ºÙÀÌÁö ¾Ê½À´Ï´Ù.(ÆÄ¼­°¡ ÀÎ½ÄÇÒ ¼ö ÀÖ´Â ÁÙ¹Ù²Þ, ¶ç¾î¾²±â µîÀÇ ¹®ÀÚ´Â Çã¿ëµË´Ï´Ù.)<br>
-·çÆ® ¿ÀºêÁ§Æ®°¡ ¿­¸®°í ´ÝÈ÷´Â °ÍÀ¸·Î ÆÐÅ¶°ú ÆÐÅ¶ »çÀÌ¸¦ ±¸ºÐÇÕ´Ï´Ù.
+ì—°ì†ëœ ë‘ json íŒ¨í‚· ì‚¬ì´ì—ëŠ” ì•„ë¬´ëŸ° êµ¬ë¶„ìžë„ ë¶™ì´ì§€ ì•ŠìŠµë‹ˆë‹¤.(íŒŒì„œê°€ ì¸ì‹í•  ìˆ˜ ìžˆëŠ” ì¤„ë°”ê¿ˆ, ë„ì–´ì“°ê¸° ë“±ì˜ ë¬¸ìžëŠ” í—ˆìš©ë©ë‹ˆë‹¤.)<br>
+ë£¨íŠ¸ ì˜¤ë¸Œì íŠ¸ê°€ ì—´ë¦¬ê³  ë‹«ížˆëŠ” ê²ƒìœ¼ë¡œ íŒ¨í‚·ê³¼ íŒ¨í‚· ì‚¬ì´ë¥¼ êµ¬ë¶„í•©ë‹ˆë‹¤.
