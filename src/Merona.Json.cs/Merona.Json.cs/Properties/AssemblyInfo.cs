@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 어셈블리에 대한 일반 정보는 다음 특성 집합을 통해 
 // 제어됩니다. 어셈블리와 관련된 정보를 수정하려면
 // 이러한 특성 값을 변경하세요.
-[assembly: AssemblyTitle("Merona.Json.cs")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Merona.JsonProtocol.cs")]
+[assembly: AssemblyDescription("pjc")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Merona.Json.cs")]
+[assembly: AssemblyCompany("pjc")]
+[assembly: AssemblyProduct("Merona.JsonProtocol.cs")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
